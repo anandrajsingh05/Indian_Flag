@@ -1,0 +1,103 @@
+body{
+    background-color: skyblue;
+}
+.outer{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.outer:hover .chakra{
+    animation-name: chakra;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+.saffron{
+    height: 33.33%;
+    width: 100%;
+    background-color:#FF9933;
+}
+.white{
+    height: 33.33%;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+
+   
+}
+.chakra{
+    height: 80%;
+    margin: auto;
+    width: 107px;
+    border: 3px solid #000080;
+    border-radius: 50%;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #fff;
+    
+}
+@keyframes chakra {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.green{
+    height: 33.33%;
+    width: 100%;
+    background-color: #138808;
+}
+.chakra>div{
+    width: 1px;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    border: 1px solid #000080;
+    background-color: #000080;
+    margin: auto;
+    left: 50%;
+}
+
+
+.chakra div:nth-child(1){
+   transform: rotate(15deg);
+}
+.chakra div:nth-child(2){
+    transform: rotate(30deg);
+}
+.chakra div:nth-child(3){
+    transform: rotate(45deg);
+}
+.chakra div:nth-child(4){
+    transform: rotate(60deg);
+}
+.chakra div:nth-child(5){
+    transform: rotate(75deg);
+}
+.chakra div:nth-child(6){
+    transform: rotate(90deg);
+}
+.chakra div:nth-child(7){
+    transform: rotate(105deg);
+}
+.chakra div:nth-child(8){
+    transform: rotate(120deg);
+}
+.chakra div:nth-child(9){
+    transform: rotate(135deg);
+}
+.chakra div:nth-child(10){
+    transform: rotate(150deg);
+}
+.chakra div:nth-child(11){
+    transform: rotate(165deg);
+}
+.chakra div:nth-child(12){
+    transform: rotate(180deg);
+}
